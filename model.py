@@ -663,7 +663,7 @@ def main():
                 st.write("---")
     
     else:
-        st.info("👆 Please configure your API key and upload a file to get started!")
+        st.info("👆 Upload a file to get started!")
 
 
 if __name__ == "__main__":
