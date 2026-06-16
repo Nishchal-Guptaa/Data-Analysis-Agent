@@ -1,0 +1,28 @@
+# Core
+pandas
+numpy
+requests
+huggingface_hub
+
+# Visualization
+matplotlib
+seaborn
+plotly
+
+# App Framework
+streamlit
+
+# File Processing
+openpyxl
+pdfplumber
+docx2txt
+
+# Image & OCR
+Pillow
+pytesseract
+
+# Utilities
+python-dotenv
+
+# Optional (recommended for stability)
+typing-extensions
