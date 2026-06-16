@@ -1,6 +1,6 @@
 ## 📄 Document Analysis Agent 🤖
 
-A powerful AI-powered web application that analyzes structured and unstructured documents (CSV, Excel, Word, PDF, text, images with OCR) and provides intelligent summaries, insights, and visualizations using the **Together.ai LLaMA-4 Maverick model**.
+A powerful AI-powered web application that analyzes structured and unstructured documents (CSV, Excel, Word, PDF, text, images with OCR) and provides intelligent summaries, insights, and visualizations using the **Huggingface meta-llama/Llama-3.1-8B-Instruct**.
 
 ---
 
@@ -95,7 +95,7 @@ Then open `http://localhost:8501` in your browser.
 ├── requirements.txt        # Python dependencies
 ├── .gitignore              # Ignored files and folders
 └── .streamlit/
-    └── secrets.toml        # Your Together API key (DO NOT COMMIT)
+    └── secrets.toml        # Your HF API key (DO NOT COMMIT)
 ```
 
 ---
