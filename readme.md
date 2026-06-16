@@ -18,7 +18,7 @@ A powerful AI-powered web application that analyzes structured and unstructured 
 ### 🛠️ Tech Stack
 
 * **Frontend**: [Streamlit](https://streamlit.io/)
-* **Backend / LLM**: [Together.ai](https://www.together.ai/)
+* **Backend / LLM**: [Huggingface](https://huggingface.co/docs/inference-providers/en/index)
 * **OCR**: `pytesseract`
 * **Document Processing**: `pdfplumber`, `docx2txt`, `pandas`, `openpyxl`
 * **Visualization**: `Plotly`, `Seaborn`, `Matplotlib`
@@ -47,12 +47,12 @@ source .venv/bin/activate  # or .venv\Scripts\activate on Windows
 pip install -r requirements.txt
 ```
 
-4. **Set up your Together API key:**
+4. **Set up your HF Token:**
 
 Create a `.streamlit/secrets.toml` file (not tracked by Git):
 
 ```toml
-TOGETHER_API_KEY = "your_together_api_key_here"
+HF_API_KEY = "your_hf_token"
 ```
 
 ---
@@ -109,7 +109,7 @@ Then open `http://localhost:8501` in your browser.
 ### 🙌 Credits
 
 * Built by \Nishchal Gupta
-* Powered by [Together.ai](https://www.together.ai/)
+* Powered by [huggingface](https://huggingface.co/docs/inference-providers/en/index)
 
 ---
 
