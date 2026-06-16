@@ -5,12 +5,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 import seaborn as sns
 from PIL import Image
-# from dotenv import load_dotenv
 
-# env_path = r"C:\Users\nishc\Desktop\Projects\Python\.env"
-# load_dotenv(env_path)
-
-# Alternative imports to avoid conflicts
 try:
     import pdfplumber  # Alternative to PyPDF2
     PDF_AVAILABLE = True
